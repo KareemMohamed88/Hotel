@@ -65,7 +65,7 @@
 
 .services .card-box .card {
     height: 350px;
-    width: 350px;
+    width: 90%;
     background-color: var(--white);
     border-radius: 20px;
     -webkit-border-radius: 20px;
@@ -75,6 +75,7 @@
     box-shadow: var(--card-shadow);
     position: relative;
     z-index: 2;
+    margin: auto;
 }
 
 .services .card-box .card .img {
