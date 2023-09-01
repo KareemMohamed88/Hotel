@@ -25,6 +25,7 @@
 
 a {
   color: var(--black);
+  text-transform: uppercase;
 }
 
 .header__nav-toggle {
