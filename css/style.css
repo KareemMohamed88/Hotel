@@ -138,14 +138,12 @@ body {
     margin-left: 10px;
   }
 
-  .about .container {
+  figure .container {
     grid-template-columns: 1fr;
     gap: 50px 0;
   }
-
-  .services .container {
-    grid-template-columns: 1fr;
-    gap: 50px 0;
+  figure .container .card-box .card{
+    width: 100%;
   }
 }
 
