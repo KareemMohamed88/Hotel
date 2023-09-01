@@ -7,22 +7,26 @@ figure {
     padding: 7em 0;
 }
 
-figure:last-child {
+.services {
     background-color: var(--white);
 }
 
-figure:last-child .text-box {
+.services .text-box {
     text-align: end;
     position: relative;
 }
 
-figure:last-child .text-box p {
+.services .text-box p {
     margin-left: 20%;
 }
 
-figure:last-child .text-box a {
+.services .text-box a {
     position: absolute;
     right: 0;
+}
+
+.services .card-box{
+    justify-content: flex-start;
 }
 
 figure .container {
@@ -93,7 +97,6 @@ figure .card-box .card {
     box-shadow: var(--card-shadow);
     position: relative;
     z-index: 2;
-    margin: auto;
 }
 
 figure .card-box .card .img {
@@ -109,7 +112,7 @@ figure .card-box .card .info {
     padding-left: 20px;
 }
 
-.figure .card-box .card .info .icon-box i {
+figure .card-box .card .info .icon-box i {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -133,6 +136,6 @@ h4 {
     margin: 5px 0;
 }
 
-.figure .card-box .card .text h4 {
+figure .card-box .card .text h4 {
     color: var(--p-color);
 }

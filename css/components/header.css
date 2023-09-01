@@ -213,6 +213,7 @@ header:after {
     -o-border-radius: 20px;
     color: var(--smooth-blue);
     font-weight: bold;
+    text-transform: lowercase;
 }
 
 .header__content-board .container .header__content-board-parent::after {
