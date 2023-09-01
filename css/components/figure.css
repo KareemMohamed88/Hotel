@@ -6,6 +6,7 @@ figure {
     align-items: center;
     padding: 7em 0;
 }
+
 figure:last-child {
     background-color: var(--white);
 }
@@ -28,6 +29,7 @@ figure .container {
     display: grid;
     align-items: center;
     grid-template-columns: repeat(2, 1fr);
+    overflow-x: hidden;
 }
 
 
