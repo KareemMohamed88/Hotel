@@ -1,20 +1,37 @@
-.services {
-    background-color: var(--white);
+figure {
+    background-color: var(--specifc-figure-color);
     height: fit-content;
     width: 100%;
     display: flex;
     align-items: center;
     padding: 7em 0;
 }
+figure:last-child {
+    background-color: var(--white);
+}
 
-.services .container {
+figure:last-child .text-box {
+    text-align: end;
+    position: relative;
+}
+
+figure:last-child .text-box p {
+    margin-left: 20%;
+}
+
+figure:last-child .text-box a {
+    position: absolute;
+    right: 0;
+}
+
+figure .container {
     display: grid;
     align-items: center;
     grid-template-columns: repeat(2, 1fr);
-
 }
 
-.services .text-box .icon-box i {
+
+figure .text-box .icon-box i {
     padding: .3em;
     border: 2px solid rgba(199, 199, 199, 0.404);
     color: var(--black);
@@ -27,21 +44,21 @@
     margin-bottom: 20px;
 }
 
-.services .text-box h1 {
+figure .text-box h1 {
     font-size: 40px;
     font-weight: 300;
     margin-bottom: 20px;
     letter-spacing: 1px;
 }
 
-.services .text-box p {
+figure .text-box p {
     margin-bottom: 20px;
     width: 80%;
     line-height: 28px;
     color: var(--p-color);
 }
 
-.services .text-box a {
+figure .text-box a {
     display: flex;
     align-items: center;
     border: 1px solid var(--black);
@@ -54,16 +71,16 @@
     -o-border-radius: 20px;
 }
 
-.services .text-box a i {
+figure .text-box a i {
     margin-left: 10px;
 }
 
-.services .card-box {
+figure .card-box {
     display: flex;
     justify-content: flex-end;
 }
 
-.services .card-box .card {
+figure .card-box .card {
     height: 350px;
     width: 90%;
     background-color: var(--white);
@@ -78,12 +95,12 @@
     margin: auto;
 }
 
-.services .card-box .card .img {
+figure .card-box .card .img {
     width: 100%;
     height: 70%;
 }
 
-.services .card-box .card .info {
+figure .card-box .card .info {
     width: 100%;
     height: 30%;
     display: flex;
@@ -91,7 +108,7 @@
     padding-left: 20px;
 }
 
-.services .card-box .card .info .icon-box i {
+.figure .card-box .card .info .icon-box i {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -109,12 +126,12 @@
     margin-right: 15px;
 }
 
-.services .card-box .card .text h3,
+figure .card-box .card .text h3,
 h4 {
     font-weight: 500;
     margin: 5px 0;
 }
 
-.services .card-box .card .text h4 {
+.figure .card-box .card .text h4 {
     color: var(--p-color);
 }

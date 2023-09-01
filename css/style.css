@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 @import url("./components/header.css");
-@import url("./components/about.css");
-@import url("./components/services.css");
+@import url("./components/figure.css");
 
 :root {
   --smooth-blue: #2e4564;
@@ -47,7 +46,9 @@ a {
 
 body {
   width: 100%;
+  overflow-x: hidden;
 }
+
 
 @media (max-width: 1040px) {
   .header__content-board .container {
