@@ -28,6 +28,19 @@
     background-color: var(--specifc-figure-color);
     padding: 15px;
     padding-bottom: 40px;
+    transition: .55s;
+    -webkit-transition: .55s;
+    -moz-transition: .55s;
+    -ms-transition: .55s;
+    -o-transition: .55s;
+}
+
+.rooms .rooms__cards-parent-plan:hover{
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
 }
 
 .rooms .rooms__cards-parent-plan .img{
@@ -40,6 +53,9 @@
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
     margin-bottom: 15px;
+    background-image: url("../../images/classic-room.jpg");
+    background-position: 50%;
+    background-size: cover;
 }
 
 .rooms .rooms__cards-parent-plan h1{
@@ -63,6 +79,15 @@
     -o-border-radius: 20px;
     font-size: 14px;
 }
+
+.rooms .rooms__cards-parent-plan:nth-child(2) .img{
+    background-image: url("../../images/duble-room.jpg");
+}
+
+.rooms .rooms__cards-parent-plan:nth-child(3) .img{
+    background-image: url("../../images/super-room.jpg");
+}
+
 
 .rooms .rooms__cards-parent-plan:nth-child(2) {
     background-color: var(--smooth-blue);
