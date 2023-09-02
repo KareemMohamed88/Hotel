@@ -57,6 +57,11 @@ body {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
   }
+
+  footer .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
 }
 
 @media (max-width: 1040px) {
@@ -205,6 +210,12 @@ body {
     padding-top: 300px;
   }
 
+  footer .container .col:nth-child(1){
+    grid-column: 1/5;
+  }
+
+  footer .container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
 }
-
-

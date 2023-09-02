@@ -1,14 +1,20 @@
 footer {
     width: 100%;
-    padding: 20px 0;
+    padding: 80px 0;
     background-color: var(--dark-blue);
     margin-top: 50px;
 }
 
 footer .container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    color: var(--white);
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   color: var(--white);
+   justify-content: center;
+}
+
+footer .container .col{
+    margin: auto;
+    width: 100%;
 }
 
 footer .container .col:first-child h1 {
@@ -27,7 +33,7 @@ footer .container .col:first-child p {
 
 footer .container .col:first-child ul li {
     display: inline-block;
-    margin-right: 10px;
+    margin: 10px;
 }
 
 footer .container .col:first-child ul li i {
@@ -48,5 +54,5 @@ footer .container .col h4 {
 
 footer .container .col ul li {
     color: var(--white);
-    margin: 10px 0;
+    margin: 10px;
 }
