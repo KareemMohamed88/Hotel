@@ -32,7 +32,7 @@ footer .container .col:first-child p {
 
 footer .container .col:first-child ul li {
     display: inline-block;
-    margin: 10px;
+    margin-right: 10px;
 }
 
 footer .container .col:first-child ul li i {
