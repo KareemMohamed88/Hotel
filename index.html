@@ -17,27 +17,42 @@
     <!--
     START OF HEADER ELEMNT
   -->
-    <header>
+    <header id="home">
       <!--
         /*/*/*/*/*/*/*/*/*/*/*
     START OF HEADER__NAV ELEMNT
         /*/*/*/*/*/*/*/*/*/*/*
   -->
+      <div id="menu" class="menu">
+        <nav>
+          <a class="menu__nav-logo">Hotel</a>
+          <i id="close" class='bx bx-x'></i>
+        </nav>
+        <div class="menu__links">
+          <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#Priceing">Priceing</a></li>
+            <li><a href="#contact">Contact us</a></li>
+          </ul>
+        </div>
+      </div>
       <div class="header__nav">
         <div class="container" data-aos="fade-down">
           <a class="header__nav-logo">Hotel</a>
           <nav class="header__nav-links" data-aos="fade-down">
             <ul data-aos="fade-down">
-              <li><a href="#">Home</a></li>
+              <li><a href="#Home">Home</a></li>
               <li><a href="#about">About</a></li>
               <li><a href="#services">Services</a></li>
-              <li><a href="#">Priceing</a></li>
-              <li><a href="#">Contact us</a></li>
+              <li><a href="#Priceing">Priceing</a></li>
+              <li><a href="#contact">Contact us</a></li>
             </ul>
           </nav>
           <div class="header__nav-btn">
             <a href="#">Log out</a>
-            <button class="header__nav-toggle" id="active">
+            <button class="header__nav-toggle" id="open">
               <i class='bx bx-menu'></i>
             </button>
           </div>
@@ -171,7 +186,7 @@
         </div>
       </div>
     </figure>
-    <figure id="features" class="features">
+    <figure id="Priceing" class="Priceing">
       <div class="container">
         <div class="text-box" data-aos="fade-down">
           <span class="icon-box">
@@ -238,7 +253,7 @@
         </div>
       </div>
     </div>
-    <footer>
+    <footer id="contact">
       <div class="container">
         <div class="col">
           <h1>Hotel</h1>
@@ -290,6 +305,7 @@
     </footer>
   </div>
   <script type="module" src="./javascript/main.js"></script>
+  <script type="module" src="./javascript/aos.js"></script>
 </body>
 
 </html>

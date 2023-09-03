@@ -1,7 +1,11 @@
-import AOS from "aos";
-import "aos/dist/aos.css";
+const menu = document.getElementById("menu")
+const open = document.getElementById("open")
+const close = document.getElementById("close")
 
-AOS.init({
-  duration: 1000,
-  offest: 100,
-});
+open.onclick = () => {
+  menu.classList.add("open")
+}
+
+close.addEventListener("click", () => {
+  menu.classList.remove("open")
+})
